@@ -61,10 +61,17 @@
      
 }
 
-#hero-two {
+#hero-grads {
     position: relative;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
+   
+}
+
+#hero-scholar {
+    position: relative;
+    width: 110vw;
+    height: 85vh;
    
 }
 
@@ -86,7 +93,7 @@
     flex-direction: column;
 }
 
-.overlay-mid{
+.overlay-mid {
 
     position: absolute;
     height: 100%;
@@ -95,6 +102,22 @@
     left: 0px;
     right: 500px;
     background: rgba(0, 0, 0, 0.65);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ .overlay-end {
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0px;
+    right: 500px;
+    background: rgba(0, 0, 0, 0.68);
     color: white;
     display: flex;
     align-items: center;
@@ -133,22 +156,40 @@
 
 .text-end {
     text-align: left !important;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 
 
 /* Marketing container styles*/
+.marketing {
+    margin-top: -12px;
+
+}
+
+.rounded-circle {
+    border: solid rgb(218, 182, 65) 3.3px;
+
+}
+
+.plan-img {
+    position: relative;
+    width: 12vw;
+    height: 21.8vh;
+
+
+}
+
 .sch-img {
     position: relative;
     width: 12vw;
-    height: 21.6vh;
+    height: 21.8vh;
 }
 
 .tut-img {
     position: relative;
     width: 12vw;
-    height: 21.6vh;
+    height: 21.8vh;
 }
 
 
