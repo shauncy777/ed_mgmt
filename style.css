@@ -187,11 +187,15 @@
 }
 
 
-@media (max-width: 990px)  and (min-width: 768){
+@media (max-width: 1200px)  and (min-width: 600px){
         .col-md-7 {
             flex: 0 0 auto;
             width: 40;
         }
+        .logo-ul {
+            margin-left: -20px;
+        }
+       
     }
   
   
