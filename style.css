@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "ITCKristenCom-Normal";
+    src: url('webFonts/ITCKristenComNormal/font.woff2') format('woff2'), url('webFonts/ITCKristenComNormal/font.woff') format('woff');
+  }
+
+  
+
+.navbar-brand {
+    margin-left: -10px;
+    display: flexbox;
+    padding: 10px;
+}
+.ITCKristenComNormal {
+	font-family: "ITCKristenCom-Normal";
+}
+
+
+.logo-ul {
+    font-family: "ITCKristenCom-Normal";
+    border: 1px ;
+    margin-top: 18px;
+    margin-left: -120px;
+    padding-right: 10px;
+    font-size: 25px;
+    line-height: 35px;
+    color: rgb(218, 182, 65);
+    list-style-type: none;
+}
+
+.d-inline-block {
+    border: 3px solid rgb(218, 182, 65);
+    padding: 3px;
+}
+
+.collapse {
+    margin-left: 250px;
+}
+
+.navbar-nav > li{
+    font-size: 18px;
+    padding-left:0px;
+    padding-right: 20px;
+  }
+
+.dropdown-menu span {
+    content: "\1F4DE";
+    font-size: 12px;
+    font-style: bold;
+}
+
+
+
+
+
+
+
+#hero-caps {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+     
+}
+
+#hero-two {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+   
+}
+
+
+
+.overlay{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0px;
+    right: 500px;
+    background: rgba(0, 0, 0, 0.38);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overlay-mid{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0px;
+    right: 500px;
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+.carousel-control-prev-icon {
+    margin-bottom: -140px;
+}
+
+.carousel-control-next-icon {
+    margin-bottom: -140px;
+}
+
+.text-start{   
+    margin-bottom: 70px;
+    text-align: left !important;
+}
+
+ .mid {
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.text-end {
+    text-align: left !important;
+    margin-bottom: 40px;
+}
+
+
+
+/* Marketing container styles*/
+.sch-img {
+    position: relative;
+    width: 12vw;
+    height: 21.6vh;
+}
+
+.tut-img {
+    position: relative;
+    width: 12vw;
+    height: 21.6vh;
+}
+
+
+@media (max-width: 990px)  and (min-width: 768){
+        .col-md-7 {
+            flex: 0 0 auto;
+            width: 40;
+        }
+    }
+  
+  
