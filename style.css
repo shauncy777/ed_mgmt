@@ -6,7 +6,7 @@
   
 
 .navbar-brand {
-    margin-left: -10px;
+    margin-left: -120px;
     display: flexbox;
     padding: 10px;
 }
@@ -19,7 +19,7 @@
     font-family: "ITCKristenCom-Normal";
     border: 1px ;
     margin-top: 18px;
-    margin-left: -120px;
+    margin-left: -45px;
     padding-right: 10px;
     font-size: 25px;
     line-height: 35px;
@@ -33,12 +33,12 @@
 }
 
 .collapse {
-    margin-left: 250px;
+    margin-left: 10px; /* was 250px before search bar added */
 }
 
 .navbar-nav > li{
     font-size: 18px;
-    padding-left:0px;
+    padding-left: 70px;
     padding-right: 20px;
   }
 
@@ -56,44 +56,31 @@
 
 #hero-caps {
     position: relative;
-    width: 100vw;
-    height: 100vh;
-     
+    width: 50vw;
+    height: 45vh;
+    margin-top: 100px;
+
 }
 
-#hero-grads {
+#hero-tutor {
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 50vw;
+    height: 45vh;
+    margin-top: 100px;
    
 }
 
 #hero-scholar {
     position: relative;
-    width: 110vw;
-    height: 85vh;
-   
+    width: 50vw;
+    height: 60vh;
+    margin-top: 100px;
+
 }
 
 
 
 .overlay{
-
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0px;
-    right: 500px;
-    background: rgba(0, 0, 0, 0.38);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.overlay-mid {
 
     position: absolute;
     height: 100%;
@@ -109,6 +96,22 @@
     flex-direction: column;
 }
 
+.overlay-mid {
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0px;
+    right: 500px;
+    background: rgba(0, 0, 0, 0.76);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
  .overlay-end {
 
     position: absolute;
@@ -117,13 +120,14 @@
     top: 0;
     left: 0px;
     right: 500px;
-    background: rgba(0, 0, 0, 0.68);
-    color: white;
+    background: rgba(0, 0, 0, 0.75);
+    color: rgb(56, 55, 55);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+
 
 
 
@@ -159,32 +163,36 @@
     margin-bottom: 20px;
 }
 
+#placeholder {
+    display: flexbox;
+    visibility: hidden;
+    width: 200px;
+    height: 200px;
+
+}
+
 
 
 /* Marketing container styles*/
 .marketing {
-    margin-top: -12px;
+    margin-top: 35px;
+    margin-bottom: -35px;
 
 }
 
 .rounded-circle {
-    border: solid rgb(218, 182, 65) 3.3px;
+    border: solid rgb(97, 96, 95) 2px;
 
 }
 
-.plan-img {
-    
 
+.row-2 {
+    margin-top: -50px;
 
 }
 
-.sch-img {
-   
-}
 
-.tut-img {
-  
-}
+
 
 
 @media (max-width: 1200px)  and (min-width: 600px){
