@@ -8,7 +8,6 @@
   }
 
 .navbar {
-    border-bottom: solid rgb(7, 7, 7) 1px;
 
 }  
 
@@ -63,9 +62,9 @@
 
 #hero-caps {
     position: relative;
-    width: 50vw;
+    width: 100vw;
     height: 100vh;
-    margin-top: 100px;
+    
 
 }
 
@@ -80,7 +79,7 @@
 #hero-scholar {
     position: relative;
     width: 1200px;
-    height: 110vh;
+    height: 100vh;
     margin-top: 0px;
 
 }
@@ -112,7 +111,7 @@
     top: 0;
     left: 0px;
     right: 500px;
-    background: rgba(0, 0, 0, 0.76);
+    background: rgba(0, 0, 0, 0.36);
     color: white;
     display: flex;
     align-items: center;
@@ -128,7 +127,7 @@
     top: 0;
     left: 0px;
     right: 500px;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.25);
     color: rgb(56, 55, 55);
     display: flex;
     align-items: center;
@@ -156,11 +155,11 @@
 }
 
 .text-start{   
-    margin-left: -10px;
-    margin-bottom: 165px;
+    margin-left: 20px;
+    margin-bottom: 215px;
     text-align: left !important;
-    color: rgb(245, 244, 243);
-    text-shadow: 2px 2px 5px black ;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(8, 8, 8);
 }
 
 
@@ -194,6 +193,7 @@
     margin-top: 55px;
     margin-bottom: 35px;
     margin-left: 150px;
+    padding: 0px;
 
 }
 
@@ -217,6 +217,23 @@
 #marketing-img {
     object-fit: cover; 
 
+}
+
+.btn-second {
+    color: rgb(196, 79, 79);
+    font-size: small;
+    font-weight: 800;
+}
+
+.btn-second:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-second:hover {
+    text-transform: capitalize;
+    color: rgb(49, 21, 204);
+    border-style: none !important;
 }
 
 
