@@ -7,9 +7,7 @@
     transition: top 0.3s;
   }
 
-.navbar {
 
-}  
 
 .navbar-brand {
     margin-left: -120px;
@@ -103,21 +101,7 @@
     flex-direction: column;
 }
 
-.overlay-mid {
 
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0px;
-    right: 500px;
-    background: rgba(0, 0, 0, 0.36);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 
  .overlay-end {
 
