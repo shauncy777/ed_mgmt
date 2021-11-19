@@ -41,6 +41,7 @@
 }
 
 .navbar-nav > li{
+    font-family: 'Nunito', sans-serif;
     font-size: 18px;
     padding-left: 70px;
     padding-right: 20px;
@@ -93,7 +94,7 @@
     top: 0;
     left: 0px;
     right: 500px;
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.48);
     color: rgb(247, 245, 245);
     display: flex;
     align-items: center;
@@ -139,23 +140,30 @@
 }
 
 .text-start{   
-    margin-left: 20px;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: .90px;
+    margin-left: -20px;
     margin-bottom: 215px;
     text-align: left !important;
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 5px rgb(8, 8, 8);
+    text-shadow: 2px 2px 8px black;
+  
 }
 
 
  .mid {
+
     text-align: left;
     margin-bottom: 20px;
 
 }
 
 .text-end {
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: .90px;
+    color: rgb(247, 246, 250);
     text-align: left !important;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .first-butt {
@@ -174,6 +182,7 @@
 
 /* Marketing container styles*/
 .marketing {
+    font-family: 'Nunito', sans-serif;
     margin-top: 55px;
     margin-bottom: 35px;
     margin-left: 150px;
@@ -218,6 +227,10 @@
     text-transform: capitalize;
     color: rgb(49, 21, 204);
     border-style: none !important;
+}
+
+.featurette {
+    font-family: 'Nunito', sans-serif;
 }
 
 .feature-img {
