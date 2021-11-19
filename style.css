@@ -38,7 +38,7 @@
 }
 
 .collapse {
-    margin-left: 10px; /* was 250px before search bar added */
+     /* was 250px before search bar added */
 }
 
 .navbar-nav > li{
@@ -167,17 +167,13 @@
     margin-bottom: 100px;
 }
 
-.first-butt {
+.first-butt, .second-butt {
+    font-size: 15px;
+   color:rgb(202, 204, 207);
    text-shadow: none;
 }
 
-#placeholder {
-    display: flexbox;
-    visibility: hidden;
-    width: 200px;
-    height: 200px;
 
-}
 
 
 
@@ -186,9 +182,8 @@
     font-family: 'Nunito', sans-serif;
     margin-top: 55px;
     margin-bottom: 35px;
-    margin-left: 150px;
+    margin-left: 130px;
     padding: 0px;
-
 }
 
 
@@ -201,12 +196,31 @@
 
 .card {
     border: none;
-   margin-bottom: 80px;
+   margin-bottom: 0px;
+  
 }
 
+.card-body:hover {
+    transform: scale(1.1);
+  }
+
 .card-body {
+    margin-top: 5px;
     background-color:rgba(164, 167, 95, 0.199);
+    text-align: center;
+    transition: transform 0.2s ease;
+
 }
+
+.card-title {
+    color: #5a5a5a;
+    text-align: center;
+    
+}
+
+
+
+
 
 #marketing-img {
     object-fit: cover; 
