@@ -168,10 +168,12 @@
 }
 
 .first-butt, .second-butt {
-    font-size: 15px;
+   font-size: 15px;
    color:rgb(202, 204, 207);
    text-shadow: none;
+  
 }
+
 
 
 
@@ -214,7 +216,8 @@
 
 .card-title {
     color: #5a5a5a;
-    text-align: center;
+    text-align: center;text-decoration-line: underline;
+    text-underline-offset: 3.2px;
     
 }
 
