@@ -8,6 +8,11 @@
   }
 
 
+.navbar {
+    border-top: solid 5px rgb(218, 182, 65);
+    border-bottom: solid 5px rgb(218, 182, 65);
+    
+}
 
 .navbar-brand {
     margin-left: -50px;
@@ -20,13 +25,15 @@
 
 
 .logo-ul {
-    font-family: "ITCKristenCom-Normal";
+    font-family: 'Red Rose', cursive;
+
+
     border: 1px ;
     margin-top: 18px;
     margin-left: -45px;
     padding-left: 30px;
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 30px;
+    line-height: 30px;
     color: rgb(218, 182, 65);
     list-style-type: none;
     text-align:center;
@@ -245,6 +252,30 @@
     text-transform: capitalize;
     color: rgb(49, 21, 204);
     border-style: none !important;
+}
+
+.btn-1 {
+    margin-top: 71px;
+}
+
+.btn-2 {
+    margin-top: 72px;
+}
+
+.btn-4 {
+    margin-top: 46px;
+}
+
+.btn-5 {
+    margin-top: 95px;
+}
+
+.btn-6 {
+    margin-top: 24px;
+}
+
+.btn-7 {
+    margin-top: 48px;
 }
 
 .featurette {
