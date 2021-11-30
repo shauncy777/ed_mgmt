@@ -234,6 +234,10 @@
     
 }
 
+.card-right-b {
+
+}
+
 
 
 
@@ -258,6 +262,7 @@
     text-transform: capitalize;
     color: rgb(49, 21, 204);
     border-style: none !important;
+    background-color: rgb(204, 157, 243);
 }
 
 .btn-1 {
@@ -277,7 +282,7 @@
 }
 
 .btn-6 {
-    margin-top: 24px;
+    margin-top: 0px;
 }
 
 .btn-7 {
