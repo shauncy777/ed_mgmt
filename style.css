@@ -1,3 +1,5 @@
+
+   
 @font-face {
     font-family: "ITCKristenCom-Normal";
     src: url('webFonts/ITCKristenComNormal/font.woff2') format('woff2'), url('webFonts/ITCKristenComNormal/font.woff') format('woff');
@@ -9,8 +11,8 @@
 
 
 .navbar {
-    border-top: solid 5px rgb(218, 182, 65);
-    border-bottom: solid 5px rgb(218, 182, 65);
+    border-top: solid 5px#ffc72a;;
+    border-bottom: solid 5px #ffc72a;;
     
 }
 
@@ -34,19 +36,16 @@
     padding-left: 30px;
     font-size: 30px;
     line-height: 30px;
-    color: rgb(218, 182, 65);
+    color: #ffc72a;;
     list-style-type: none;
     text-align:center;
 }
 
 .d-inline-block {
-    border: 3px solid rgb(218, 182, 65);
+    border: 3px solid #ffc72a;;
     padding: 3px;
 }
 
-.collapse {
-     /* was 250px before search bar added */
-}
 
 .navbar-nav > li{
     font-family: 'Nunito', sans-serif;
@@ -70,9 +69,16 @@
 #hero-caps {
     position: relative;
     width: 100%;
+   
     height: auto;
     
 
+}
+
+.carousel-item {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
 }
 
 
@@ -87,7 +93,7 @@
 
 
 
-.overlay{
+/*.overlay{
 
     position: absolute;
     height: 100%;
@@ -102,7 +108,7 @@
     justify-content: center;
     flex-direction: column;
 }
-
+*/
 
 
  .overlay-end {
@@ -131,23 +137,23 @@
 
 
 
-
 .carousel-control-prev-icon {
-    margin-bottom: 80px;
+    margin-bottom: 130px;
 }
+
 
 .carousel-control-next-icon {
-    margin-bottom: 80px;
+    margin-bottom: 130px;
 }
+
 
 .text-start{   
     font-family: 'Nunito', sans-serif;
     letter-spacing: .90px;
     margin-left: -20px;
-    margin-bottom: 215px;
+    margin-bottom: 245px;
     text-align: left !important;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 8px black;
+    color:  #526f79 !important;
   
 }
 
@@ -162,17 +168,24 @@
 .text-end {
     font-family: 'Nunito', sans-serif;
     letter-spacing: .90px;
-    color: rgb(247, 246, 250);
+    color: rgb(255, 255, 255) !important;
     text-align: left !important;
-    margin-bottom: 100px;
+    margin-bottom: 267px;
 }
 
-.first-butt, .second-butt {
+.first-butt{
    font-size: 15px;
-   color:rgb(202, 204, 207);
+   color:rgb(108, 111, 117);
    text-shadow: none;
   
 }
+
+.second-butt {
+    font-size: 15px;
+    color:rgb(206, 206, 200);
+    text-shadow: none;
+   
+ }
 
 
 
@@ -298,5 +311,4 @@
         }
        
     }
-  
   
