@@ -11,8 +11,8 @@
 
 
 .navbar {
-    border-top: solid 5px#ffc72a;;
-    border-bottom: solid 5px #ffc72a;;
+    border-top: solid 5px#ffc72a;
+    border-bottom: solid 5px #ffc72a;
     
 }
 
@@ -75,6 +75,8 @@
 
 }
 
+
+
 .carousel-item {
     position: relative !important;
     width: 100% !important;
@@ -92,23 +94,10 @@
 
 
 
+/*
 
-/*.overlay{
+}  */
 
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0px;
-    right: 500px;
-    background: rgba(0, 0, 0, 0.48);
-    color: rgb(247, 245, 245);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-*/
 
 
  .overlay-end {
@@ -304,8 +293,9 @@
    
 }
 
-h2.featurette-heading {
-    margin-top: 50px;
+h3.featurette-heading {
+    margin-top: 25px;
+    overflow: hidden;
 }
 
 

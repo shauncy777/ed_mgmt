@@ -95,6 +95,18 @@ body {
 }
 
 @media (max-width: 600px){
+
+  
+  html,body, main{
+    overflow-x: hidden !important;
+}
+
+
+  .navbar-brand {
+    margin-left: 0px;
+  }
+
+  
   .carousel-item {
     height: 35rem;
   }
@@ -108,10 +120,85 @@ body {
   .collapse {
     margin-left: 0px;
 }
+
 .logo-ul {
-  margin-left: -20px;
+  margin-left: -50px;
 }
 
+.featurette-divider {
+  display: none;
 }
 
+ .featurette {
+  margin-left: -40px;
+  
+ }
+
+h3.featurette-heading {
+  width: 50vw;
+  }
+  .feature-img {
+    width: 60vw;
+    height:50vh;
+  }
+}
+
+@media (max-width: 621px){
+  .carousel-caption h1 {
+    font-size: 20px;
+  }
+  .first-butt, .second-butt {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 756px){
+  .carousel-control-prev-icon {
+    margin-bottom: -40px;
+    
+}
+.carousel-control-prev {
+  filter: invert(100%) !important;
+}
+
+.carousel-control-next {
+  filter: invert(100%) !important;
+}
+
+
+.carousel-control-next-icon {
+    margin-bottom: -40px;
+}
+}
+
+@media (max-width: 1024px){
+  .overlay{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0px;
+    right: 500px;
+    background: rgba(0, 0, 0, 0.58);
+    color: rgb(255, 251, 251);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+  .text-start {
+    color:rgb(255, 255, 255) !important;
+  }
+  .first-butt {
+    color: white !important;
+  }
+}
+
+@media (max-width: 1245px){
+  .carousel-caption  {
+    top: 100px;
+  }
+}
 
