@@ -135,11 +135,12 @@ body {
  }
 
 h3.featurette-heading {
+  font-size: 20px !important;
   width: 50vw;
   }
   .feature-img {
-    width: 60vw;
-    height:50vh;
+    width: 50vw;
+    height:40vh;
   }
 }
 

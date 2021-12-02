@@ -301,7 +301,9 @@ h3.featurette-heading {
 
 
 .feature-img {
-    border-radius: 10px;
+   
+    
+   border-radius: 10px;
     box-shadow: 3px 3px 20px black;
 
 }
