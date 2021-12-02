@@ -127,12 +127,12 @@
 
 
 .carousel-control-prev-icon {
-    margin-bottom: 130px;
+    margin-bottom: 250px;
 }
 
 
 .carousel-control-next-icon {
-    margin-bottom: 130px;
+    margin-bottom: 250px;
 }
 
 
@@ -140,7 +140,7 @@
     font-family: 'Nunito', sans-serif;
     letter-spacing: .90px;
     margin-left: -20px;
-    margin-bottom: 245px;
+    margin-bottom: 305px;
     text-align: left !important;
     color:  #526f79 !important;
   
@@ -159,7 +159,7 @@
     letter-spacing: .90px;
     color: rgb(255, 255, 255) !important;
     text-align: left !important;
-    margin-bottom: 267px;
+    margin-bottom: 375px;
 }
 
 .first-butt{
