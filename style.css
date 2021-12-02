@@ -290,7 +290,7 @@
 .featurette {
     font-family: 'Nunito', sans-serif;
     color:rgb(78, 110, 175);
-   
+   margin-top: 100px;
 }
 
 h3.featurette-heading {
@@ -306,6 +306,10 @@ h3.featurette-heading {
    border-radius: 10px;
     box-shadow: 3px 3px 20px black;
 
+}
+
+.featurette ul {
+    text-decoration: none;
 }
 
 
