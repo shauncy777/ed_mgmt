@@ -50,14 +50,17 @@
     font-size: 18px;
     margin-left: 400px;
     margin-right:-240px;
-    
+  }
+
+  .nav-item a {
+    color: #ffc72a !important;
   }
   .dropdown-menu {
-    background-color: #f1e48b;
-    border: solid rgb(23, 54, 116) 2px !important;
+    background-color: rgb(23, 54, 116);
+    border: solid #ffc72a 3px !important;
   }
   .dropdown-item {
-      color: rgb(23, 54, 116) !important;
+      color: #ffc72a !important;
   }
 
 .dropdown-menu span {
