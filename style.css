@@ -336,7 +336,7 @@ h3.featurette-heading {
 
 @media (max-width: 420px) {
     .carousel {
-        margin-top: 70px !important;
+        margin-top: 20px !important;
     }
      .text-start, .text-end{
          
@@ -352,7 +352,13 @@ h3.featurette-heading {
     .col-sm-12 {
         margin-left: -35px;
     }
-    .logo
+    .d-inline-block {
+        height: 10vh;
+    }
+    .logo-ul {
+        font-size: 20px;
+        line-height: 25px;
+    }
     
 }
 
