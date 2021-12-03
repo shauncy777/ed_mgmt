@@ -55,13 +55,19 @@
   .nav-item a {
     color: #ffc72a !important;
   }
+
+  .nav-item a:focus {
+    
+}
   .dropdown-menu {
     background-color: rgb(23, 54, 116);
     border: solid #ffc72a 3px !important;
   }
-  .dropdown-item {
-      color: #ffc72a !important;
-  }
+  .dropdown-menu > li > a:hover {
+    background-image: none;
+    background-color: rgb(52, 80, 238);
+}
+ 
 
 .dropdown-menu span {
     content: "\1F4DE";
