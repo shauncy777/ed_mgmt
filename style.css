@@ -21,9 +21,7 @@
     display: flexbox;
     padding: 10px;
 }
-.ITCKristenComNormal {
-	font-family: "ITCKristenCom-Normal";
-}
+
 
 
 .logo-ul {
@@ -50,8 +48,9 @@
 .navbar-nav > li{
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
-    padding-left: 40px;
-    padding-right: 20px;
+    margin-left: 400px;
+    margin-right:-240px;
+    
   }
 
 .dropdown-menu span {
@@ -142,9 +141,11 @@
     margin-left: -20px;
     margin-bottom: 305px;
     text-align: left !important;
-    color:  #526f79 !important;
-  
+    color:  #5d5d81 !important;
+    
 }
+
+
 
 
  .mid {
@@ -212,21 +213,25 @@
 
 .card-body {
     margin-top: 5px;
-    background-color:rgba(164, 167, 95, 0.199);
+    background-color:rgb(212, 220, 233);
     text-align: center;
-    transition: transform 0.2s ease;
+    transition: transform 0.3s ease;
+    
 
 }
 
 .card-title {
-    color: #5a5a5a;
+    color: rgb(23, 54, 116);
     text-align: center;text-decoration-line: underline;
     text-underline-offset: 3.2px;
+   
     
 }
 
-.card-right-b {
-
+.card a {
+    
+      
+        
 }
 
 
@@ -289,7 +294,7 @@
 
 .featurette {
     font-family: 'Nunito', sans-serif;
-    color:rgb(78, 110, 175);
+    color:rgb(23, 54, 116);
    margin-top: 100px;
 }
 
@@ -309,12 +314,62 @@ h3.featurette-heading {
 }
 
 .featurette ul {
-    text-decoration: none;
+
+    background-color: #f1e48b !important;
+    color: rgb(23, 54, 116) !important;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 40px;
+    border: solid  #ffa600 3px;
+}
+
+.featurette p {
+
+    background-color: #f1e48b !important;
+    color: rgb(23, 54, 116) !important;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 40px;
+    border: solid  #ffa600 3px;
 }
 
 
+@media (max-width: 420px) {
+    .carousel {
+        margin-top: 70px !important;
+    }
+     .text-start, .text-end{
+         
+         margin-top: -50px !important;
+     }
+     .text-end{
+        font-size: 10px;
+        margin-top: -45px !important;
+    }
+    .card {
+        margin-left: -45px !important;
+    }
+    .col-sm-12 {
+        margin-left: -35px;
+    }
+    .logo
+    
+}
 
+@media (max-width: 300px) {
+    .carousel {
+        margin-top: 100px !important;
+    }
+    .carousel-caption {
+        margin-bottom: 150px !important;
+    }
+}
 
+@media (max-width: 1080px) {
+    .col-sm-12 {
+        width: 70vw;
+    }
+}
 
 
 
