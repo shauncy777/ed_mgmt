@@ -323,22 +323,22 @@ h3.featurette-heading {
 
 .featurette ul {
 
-    background-color: #f1e48b !important;
-    color: rgb(23, 54, 116) !important;
+    background-color: rgb(23, 54, 116) !important;
+    color: #ffc72a !important;
     border-radius: 10px;
     padding: 20px;
     padding-left: 40px;
-    border: solid  #ffa600 3px;
+    border: solid  #ffc72a 3px;
 }
 
 .featurette p {
 
-    background-color: #f1e48b !important;
-    color: rgb(23, 54, 116) !important;
+    background-color: rgb(23, 54, 116) !important;
+    color: #ffc72a !important;
     border-radius: 10px;
     padding: 20px;
     padding-left: 40px;
-    border: solid  #ffa600 3px;
+    border: solid  #ffc72a 5px;
 }
 
 
