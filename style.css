@@ -360,25 +360,9 @@ h3.featurette-heading {
 }
 
 
+
+
 @media (max-width: 420px) {
-    .carousel {
-        margin-top: 20px !important;
-    }
-     .text-start, .text-end{
-         
-         margin-top: -50px !important;
-     }
-     .text-end{
-        font-size: 10px;
-        margin-top: -45px !important;
-    }
-    .card {
-        margin-left: -35px !important;
-    }
-    
-    .col-sm-12 {
-        margin-left: -20px !important;
-    }
     .d-inline-block {
         margin-left: -10px !important;
         height: 10vh;
@@ -388,8 +372,55 @@ h3.featurette-heading {
         font-size: 25px;
         line-height: 25px;
     }
+
+    .dropdown-toggle {
+        margin-left: 0px !important;
+        
+    }
+    .navbar-nav {
+        margin-left: -80px !important;
+    }
+    .navbar-nav li {
+        font-size: 13px !important;
+    }
+    .carousel {
+        margin-top: 20px !important;
+    }
+     .text-start, .text-end{
+         font-size: smaller;
+         margin-top: -60px !important;
+     }
+     .text-end{
+        font-size: x-small !important;
+        margin-top: -55px !important;
+    }
+
+    .text-end h1 {
+        font-size: medium !important;
+    }
+    .card {
+        margin-left: -60px !important;
+    }
+
+    .lead {
+        font-size: small;
+        width: 95vw;
+    }
+    
+    .col-sm-12 {
+        margin-left: -95px !important;
+    }
+
+    .col-sm-12 h3 {
+       text-align: center !important;
+    }
+    
+    div.col-sm-12 {
+        width: 100vw;
+
+    }
     .col-sm-8 {
-        margin-left: -65px !important;
+        margin-left: -85px !important;
         margin-bottom: 20px !important;
       
     }
@@ -399,15 +430,12 @@ h3.featurette-heading {
     .feature-img {
         width: 50vw !important;
         height: 30vh !important;
-        margin-left: 10px !important ;
+        margin-left: -5px !important ;
     }
-    .dropdown-toggle {
-        margin-left: -235px !important;
-        
+    h3.featurette-heading {
+        width: 95vw !important;
     }
-    .navbar-nav li {
-        font-size: 13px !important;
-    }
+    
     
 }
 
