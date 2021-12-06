@@ -48,17 +48,16 @@
 .navbar-nav > li{
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
-    margin-left: 400px;
-    margin-right:-240px;
+    margin-left: 80px;
+    padding-right: -40px;
   }
 
   .nav-item a {
     color: #ffc72a !important;
   }
 
-  .nav-item a:focus {
-    
-}
+  .navbar-nav a:hover { color: #ffffff !important; }
+
   .dropdown-menu {
     background-color: rgb(23, 54, 116);
     border: solid #ffc72a 3px !important;
@@ -77,6 +76,12 @@
 }
 
 
+.construction span {
+    content: "\1F4DE";
+    font-size: 100px;
+    font-style: bold;
+    
+}
 
 
 
@@ -348,6 +353,10 @@ h3.featurette-heading {
     padding: 20px;
     padding-left: 40px;
     border: solid  #ffc72a 5px;
+}
+
+.about-img {
+    border: solid #ffc72a 5px;
 }
 
 
