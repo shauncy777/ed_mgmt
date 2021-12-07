@@ -83,6 +83,11 @@
     
 }
 
+.carousel {
+    max-height: 650px !important;
+    overflow: hidden !important;
+}
+
 
 
 
@@ -148,12 +153,12 @@
 
 
 .carousel-control-prev-icon {
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 
 
 .carousel-control-next-icon {
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 
 
@@ -355,9 +360,15 @@ h3.featurette-heading {
     border: solid  #ffc72a 5px;
 }
 
+.last-img {
+    margin-bottom: 55px;
+}
+
 .about-img {
     border: solid #ffc72a 5px;
 }
+
+
 
 .footer-dark {
     padding:50px 0;
@@ -488,6 +499,8 @@ h3.featurette-heading {
         font-size: 13px !important;
     }
     .carousel {
+        max-height: 180px !important;
+        overflow: hidden !important;
         margin-top: 20px !important;
     }
      .text-start, .text-end{
@@ -495,12 +508,12 @@ h3.featurette-heading {
          margin-top: -60px !important;
      }
      .text-end{
-        font-size: x-small !important;
+        font-size: xx-small !important;
         margin-top: -55px !important;
     }
 
     .text-end h1 {
-        font-size: medium !important;
+        font-size: small !important;
     }
     .card {
         margin-left: -55px !important;
@@ -539,12 +552,49 @@ h3.featurette-heading {
     h3.featurette-heading {
         width: 95vw !important;
     }
-    #career {
-        margin-left: 40px;
+    
+   
+    .footer-img {
+        margin-left: 0px !important;
     }
-    .about-img {
+    .footer-ul {
+        line-height: 22px !important;
+        font-size: small !important;
+        margin-top: -66px !important;
+        margin-left: 100px !important;
+    }
+    .footer-dark {
+        margin-bottom: -2000px !important;
+      }
+
+      #tutor-soon, #college-soon {
+          margin-left: 55px !important;
+      }
+      .about {
+          margin-left: 140px !important;
+      }
+      .about-img {
+        margin-left: 135px !important ;
         width: 25vw !important;
         height: 20vh !important;
+    }
+    #about-us h4 {
+        margin-left: 90px !important;
+    }
+    #about-us h5 {
+        margin-left: 100px !important;
+    }
+
+    #about-us {
+        margin-left: 40px !important;
+    }
+    .small-fd {
+        margin-left: 50px !important;
+        display: block !important;
+    }
+    .big-fd {
+       
+        display: block !important;
     }
     
 }
@@ -558,13 +608,82 @@ h3.featurette-heading {
     }
 }
 
+@media (max-width:600px ) and (min-width: 420px) {
+    .about-img {
+        width: 20vw !important;
+        height: 25vh !important;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 420px) {
+    html,body, main{
+        overflow-x: hidden !important;
+    }
+    .d-inline-block {
+        margin-left: 20px !important;
+        height: 10vh;
+    }
+    .logo-ul {
+        margin-left: -130px !important;
+    }
+    .navbar-nav {
+        margin-left: -100px !important;
+        
+    }
+
+    .carousel {
+        max-height: 380px !important;
+        overflow: hidden !important;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        margin-top: 150px !important ;
+    }
+    .text-end h1 {
+        font-size: xx-large !important;
+    }
+    .row {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: 110px !important;
+    }
+    .featurette-divider {
+        margin-left:  -200px !important;
+    }
+    .col-sm-12 {
+       margin-left: -120px !important;
+    }
+    .col-sm-8 {
+       margin-left: -40px !important;
+    }
+    .col-md-4 {
+        margin-left: -30px !important;
+    }
+}
+
+@media (max-width: 1263px) and (min-width: 768px){
+    .col-md-4 {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: 110px !important;
+    }
+    h3.featurette-heading{
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: 110px !important;
+    }
+}
+
 @media (max-width: 1080px) {
     .col-sm-12 {
         width: 70vw;
     }
 }
 
-
+@media (max-width: 768px) and (min-width: 576px){
+    .footer-img {
+        margin-left: -80px !important;
+    }
+}
 
 
 @media (max-width: 1200px)  and (min-width: 600px){
