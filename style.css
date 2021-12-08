@@ -697,3 +697,10 @@ h3.featurette-heading {
        
     }
   
+@media (min-width: 1200px) {
+    .carousel {
+        max-height: 1800px !important;
+        overflow: hidden !important;
+
+    }
+}
