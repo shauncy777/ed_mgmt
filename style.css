@@ -368,6 +368,40 @@ h3.featurette-heading {
     border: solid #ffc72a 5px;
 }
 
+#vision h3 {
+    border: solid  rgb(23, 54, 116) 3px;
+    padding: 30px;
+    margin-top: 100px !important;
+    background:-moz-linear-gradient(180deg, rgba(23, 54, 116, 1) 22%, rgba(255, 199, 42, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(180deg, rgba(23, 54, 116, 1) 22%, rgba(255, 199, 42, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(180deg, rgba(23, 54, 116, 1) 22%, rgba(255, 199, 42, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFC72A', endColorstr='#173674', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(180deg, rgba(23, 54, 116, 1) 22%, rgba(255, 199, 42, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(180deg, rgba(23, 54, 116, 1) 22%, rgba(255, 199, 42, 1) 100%);
+
+
+
+}
+
+. {
+    background: rgb(23, 54, 116);
+    background: -webkit-linear-gradient(to top left, rgb(23, 54, 116) 0%, #FFC72A 100%);
+    background: -moz-linear-gradient(to top left, rgb(23, 54, 116) 0%, #FFC72A 100%);
+    background: linear-gradient(to top left, rgb(23, 54, 116) 0%, #FFC72A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 
 .footer-dark {
@@ -477,6 +511,8 @@ h3.featurette-heading {
 
 
 
+
+
 @media (max-width: 420px) {
     .d-inline-block {
         margin-left: -10px !important;
@@ -567,16 +603,16 @@ h3.featurette-heading {
         margin-bottom: -2000px !important;
       }
 
-      #tutor-soon, #college-soon {
-          margin-left: 55px !important;
-      }
-      .about {
-          margin-left: 140px !important;
-      }
-      .about-img {
-        margin-left: 135px !important ;
-        width: 25vw !important;
-        height: 20vh !important;
+    #tutor-soon, #college-soon {
+        margin-left: 55px !important;
+    }
+    .about {
+        margin-left: 140px !important;
+    }
+    .about-img {
+    margin-left: 135px !important ;
+    width: 25vw !important;
+    height: 20vh !important;
     }
     #about-us h4 {
         margin-left: 90px !important;
@@ -593,7 +629,6 @@ h3.featurette-heading {
         display: block !important;
     }
     .big-fd {
-       
         display: block !important;
     }
     
@@ -693,16 +728,13 @@ h3.featurette-heading {
         }
         .logo-ul {
             margin-left: -20px;
-        }
-       
+        }   
     }
   
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
     .carousel {
         max-height: 860px !important;
         overflow: hidden !important;
-       
-
     }
     .text-start {
         margin-bottom: 350px !important;
@@ -715,5 +747,20 @@ h3.featurette-heading {
     }
     .navbar-nav {
         margin-left: 120px !important;
+    }
+}
+@media (min-width: 1520px) {
+    .card {
+        margin-left: 80px !important;
+        
+    }
+    .featurette-divider {
+        margin-left: 60px !important;
+    }
+    .col-sm-12 {
+        margin-left: 50px !important;
+    }
+    .row-bottom {
+        margin-left: 100px !important;
     }
 }
