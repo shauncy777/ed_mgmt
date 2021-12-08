@@ -699,8 +699,21 @@ h3.featurette-heading {
   
 @media (min-width: 1200px) {
     .carousel {
-        max-height: 1800px !important;
+        max-height: 860px !important;
         overflow: hidden !important;
+       
 
+    }
+    .text-start {
+        margin-bottom: 350px !important;
+    }
+    .text-end {
+        margin-bottom: 550px !important;
+    }
+    #navbar {
+        padding-right: -50px !important;
+    }
+    .navbar-nav {
+        margin-left: 120px !important;
     }
 }
