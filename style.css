@@ -394,9 +394,49 @@ h3.featurette-heading {
 }
 
 .tutor-body {
-    background-color: rgb(255, 255, 255);
+    
+    background-color: rgb(21, 21, 59);
 }
 
+@media (max-width: 830px){
+    .form-title {
+        margin-top: -120px;
+    margin-left: -140px;
+       width: 70vw;
+    }
+}
+
+@media (max-width: 675px){
+    .login-username {
+        display: grid !important;
+        margin-left:-90px !important;
+        font-size: small !important;
+    
+    }
+    
+    .login-password {
+        display: grid !important;
+        margin-left:-90px !important;
+        font-size: small !important;
+        
+    }
+    
+    .login-remember {
+        display: grid !important;
+        margin-left: -65px !important;
+        font-size: small !important;
+    }
+
+    .remember-text {
+       display: grid !important;
+       margin-top: -25px !important;
+        margin-left: 20px !important;
+    }
+
+    .log-butt {
+        margin-left: -45px !important;
+    }
+}
 
 .form-title {
     background-color: rgba(255, 255, 255, 0.808);
@@ -450,7 +490,7 @@ form {
 .user-portal {
     font-family: 'Roboto Slab', serif;
     color: rgb(95, 96, 202);
-    
+
     margin-top: -30px;
     margin-bottom: 55px;
 }
