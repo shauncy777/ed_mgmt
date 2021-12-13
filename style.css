@@ -393,13 +393,66 @@ h3.featurette-heading {
 
 }
 
-. {
-    background: rgb(23, 54, 116);
-    background: -webkit-linear-gradient(to top left, rgb(23, 54, 116) 0%, #FFC72A 100%);
-    background: -moz-linear-gradient(to top left, rgb(23, 54, 116) 0%, #FFC72A 100%);
-    background: linear-gradient(to top left, rgb(23, 54, 116) 0%, #FFC72A 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.tutor-body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.form-title {
+    background-color: rgba(255, 255, 255, 0.808);
+    border: inset rgb(119, 116, 83) 8px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.welcome-to {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(95, 96, 202);
+    font-size: 55px;
+}
+
+ .login-username {
+    font-family: 'Libre Baskerville', serif;
+     color: rgb(230, 227, 227);
+    margin-left:-70px;
+    font-size: large;
+}
+
+.login-password {
+    font-family: 'Libre Baskerville', serif;
+     color: rgb(230, 227, 227);
+     font-size: large;
+}
+
+.login-remember {
+    font-family: 'Libre Baskerville', serif;
+     color: rgb(230, 227, 227);
+     font-size: large;
+}
+
+form .mb-5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 75px;
+    color: rgb(50, 44, 100);
+    text-shadow: 5px 5px 10px rgb(136, 127, 58);
+}
+
+form { 
+    font-family: 'Libre Baskerville', serif;
+    border: dotted black 2px;
+    padding: 200px;
+    background:-webkit-linear-gradient(90deg, #6138a3 0%, #325895 46%, #716d4b 100%);
+    background:-o-linear-gradient(90deg, #6138a3 0%, #325895 46%, #716d4b 100%);
+    background:-moz-linear-gradient(90deg, #6138a3 0%, #325895 46%, #716d4b 100%);
+    background:linear-gradient(90deg, #6138a3 0%, #325895 46%, #716d4b 100%);
+}
+
+.user-portal {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(95, 96, 202);
+    
+    margin-top: -30px;
+    margin-bottom: 55px;
 }
 
 
