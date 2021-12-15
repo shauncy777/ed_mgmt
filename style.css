@@ -255,11 +255,6 @@
     
 }
 
-.card a {
-    
-      
-        
-}
 
 
 
@@ -371,7 +366,7 @@ h3.featurette-heading {
 #vision h3 {
     border: solid  rgb(23, 54, 116) 3px;
     padding: 30px;
-    margin-top: 100px !important;
+    margin-top: 50px !important;
     background:-moz-linear-gradient(180deg, rgba(23, 54, 116, 1) 22%, rgba(255, 199, 42, 1) 100%); 
 
     /* safari 5.1+,chrome 10+ */
@@ -388,10 +383,11 @@ h3.featurette-heading {
 
     /* global 94%+ browsers support */
     background:linear-gradient(180deg, rgba(23, 54, 116, 1) 22%, rgba(255, 199, 42, 1) 100%);
-
-
-
 }
+
+
+
+
 
 .tutor-body {
     
