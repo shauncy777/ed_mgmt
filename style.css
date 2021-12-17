@@ -627,7 +627,7 @@ form {
         font-size: 13px !important;
     }
     .carousel {
-        max-height: 180px !important;
+        max-height: 185px !important;
         overflow: hidden !important;
         margin-top: 20px !important;
     }
@@ -642,6 +642,10 @@ form {
 
     .text-end h1 {
         font-size: small !important;
+    }
+    .text-end p {
+        margin-top: -15px !important;
+        font-size: x-small !important;
     }
     .card {
         margin-left: -55px !important;
@@ -856,3 +860,52 @@ form {
         margin-left: 100px !important;
     }
 }
+/* landscape mode */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (orientation: landscape) { 
+    html,body, main{
+        overflow-x: hidden !important;
+        }
+    .navbar{
+        width: 100vw !important;
+    }
+    .logo-ul{
+        margin-left: -90px !important;
+    }
+    .carousel-control-prev-icon{
+        margin-top: 100px !important;
+    }
+    .carousel-control-next-icon{
+        margin-top: 100px !important;
+    }
+    .text-start{
+        margin-top: 40px !important;
+    }
+    .card-left{
+        width: 22.3vw !important;
+        margin-left: -90px !important;
+    }
+    .card-right {
+        width: 22.3vw !important;
+        margin-left: -90px !important;
+    }
+    .card-left-b{
+        width: 22.3vw !important;
+        margin-left: -90px !important;
+    }
+    .card-right-b {
+        width: 22.3vw !important;
+        margin-left: -90px !important;
+    }
+    h3.featurette-heading {
+        margin-left: 0px !important;
+    }
+    .col-sm-12 {
+        margin-left: -80px !important;
+        width: 120vw !important;
+    }
+  }
+
+
