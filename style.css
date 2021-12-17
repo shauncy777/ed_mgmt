@@ -655,9 +655,12 @@ form {
         font-size: small;
         width: 95vw;
     }
+    .marketing {
+        margin-left: 145px !important;
+    }
     
     .col-sm-12 {
-        margin-left: -95px !important;
+        margin-left: -105px !important;
     }
 
     .col-sm-12 h3 {
@@ -905,6 +908,9 @@ form {
     .col-sm-12 {
         margin-left: -80px !important;
         width: 120vw !important;
+    }
+    .featurette-divider{
+        margin-left: -200px !important;
     }
   }
 
