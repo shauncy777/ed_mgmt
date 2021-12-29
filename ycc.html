@@ -49,30 +49,29 @@
 .ycc-body {
     margin-top: 200px;
     color: rgb(226, 221, 221);
-    font-size: 22px;
-    font-family: 'Montserrat', sans-serif;
+    
+    font-family: 'Montserrat', sans-serif; 
    
 }
 
 .ml12 {
-    margin-left: 150px;
+  
   font-weight: 800;
   font-size: 3.8em;
   letter-spacing: 0.2em;
   padding-left: 0px;
-  
   position: relative;
-  
-
-  
+  justify-content: center !important;
+  align-items: center !important; 
+  text-align: center;
   
 }
-
-
 
 .ml12 .letter {
   display: inline-block;
   line-height: 1em;
+  display: flex !important;
+ 
 }
 
 h2 {
@@ -80,7 +79,7 @@ h2 {
     border-bottom: solid rgba(69, 189, 69, 0.9) 5px ;
     padding: 10px;
     font-weight: lighter;
-    font-size: 40px;
+
     color: rgb(109, 107, 107) !important;
     margin-top: 50px;
     text-align: center;
@@ -92,21 +91,20 @@ button {
     font-size: xx-large;
     padding: 20px;
     border-radius: 10px;
+    
+   
+
 }
-
-
-
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 100%;
   height: 200px;
   margin-top: 50px;
-  margin-left: 675px;
-
- 
-
+  display:flexbox !important;
+  justify-content: center !important;
+  align-items: center !important;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -118,6 +116,7 @@ button {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -149,6 +148,14 @@ button {
 }
 
         
+@media (max-width: 950px){
+
+ .contact-butt, .flip-card-back {
+   font-size: large !important;
+ }
+ 
+ 
+  
 }
     </style>
 
@@ -158,13 +165,13 @@ button {
     </head>
     <body class="ycc-body" style="background-color: rgb(29, 29, 29);">
         <div class="ml12">
-            <h1  style="font-size:5vw;">Your College Connection</h1>
+            <h1  style="font-size:6vw;">Your College Connection</h1>
         </div>
     
-            <h2>A complete college prep program that ensures you stay on track and stand out from others.</h2>
+            <h2 style="font-size:3.5vw;">A complete college prep program that ensures you stay on track and stand out from others.</h2>
         
 
-        <div class="flip-card">
+        <div  class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
                 <button class="contact-butt">Contact Us</button>
@@ -177,7 +184,7 @@ button {
           </div>
 
 
-<script>
+<!-- <script>
     var textWrapper = document.querySelector('.ml12');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
@@ -198,7 +205,7 @@ anime.timeline({loop: true})
     duration: 1100,
     delay: (el, i) => 1900 + 90 * i
   });
-</script>
+</script> -->
 
 
 
