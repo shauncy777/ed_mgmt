@@ -705,6 +705,8 @@ form {
     #tutor-soon, #college-soon {
         margin-left: 55px !important;
     }
+
+
     .about {
         margin-left: 140px !important;
     }
@@ -733,6 +735,160 @@ form {
     
 }
 
+
+@media (max-width: 428px) {
+    .d-inline-block {
+        margin-left: -10px !important;
+        height: 10vh;
+    }
+    .logo-ul {
+        margin-left: -70px !important;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .dropdown-toggle {
+        margin-left: 0px !important;
+        
+    }
+    .navbar-nav {
+        margin-left: -80px !important;
+    }
+    .navbar-nav li {
+        font-size: 13px !important;
+    }
+    .carousel {
+        max-height: 185px !important;
+        overflow: hidden !important;
+        margin-top: 20px !important;
+    }
+     .text-start, .text-end{
+         font-size: smaller;
+         margin-top: -60px !important;
+     }
+     .text-end{
+        font-size: xx-small !important;
+        margin-top: -55px !important;
+    }
+
+    .text-end h1 {
+        font-size: small !important;
+    }
+    .text-end p {
+        margin-top: -15px !important;
+        font-size: x-small !important;
+    }
+    .card {
+        margin-left: -55px !important;
+    }
+
+    .lead {
+        font-size: small;
+        width: 95vw;
+    }
+    .marketing {
+        margin-left: 145px !important;
+    }
+    
+    .col-sm-12 {
+        margin-left: -105px !important;
+    }
+
+    .col-sm-12 h3 {
+       text-align: center !important;
+    }
+    
+    div.col-sm-12 {
+        width: 100vw;
+
+    }
+    .col-sm-8 {
+        margin-left: -85px !important;
+        margin-bottom: 20px !important;
+      
+    }
+    .col-sm-8 h3 {
+        width: 90vw !important;
+    }
+    .feature-img {
+        width: 50vw !important;
+        height: 30vh !important;
+        margin-left: -5px !important ;
+    }
+    h3.featurette-heading {
+        width: 95vw !important;
+    }
+    
+   
+    .footer-img {
+        margin-left: 0px !important;
+    }
+    .footer-ul {
+        line-height: 22px !important;
+        font-size: small !important;
+        margin-top: -66px !important;
+        margin-left: 100px !important;
+    }
+    .footer-dark {
+        margin-bottom: -2000px !important;
+      }
+
+    #tutor-soon, #college-soon {
+        margin-left: 55px !important;
+    }
+
+
+    h1.team {
+        font-size: xx-large !important;
+        margin-left: 60px !important;
+        margin-bottom: 50px !important;
+      }
+    .about {
+        margin-left: 95px !important;
+    }
+   img.meg {
+       margin-left: 60px !important;
+   }
+    .about-img {
+    margin-left: 135px !important ;
+    width: 32vw !important;
+    height: 20vh !important;
+    }
+
+    .col-sm-5 img {
+        margin-left: 50px !important;
+    }
+
+    .col-sm-5 {
+        margin-left: -80px !important;
+    }
+    #about-us h4 {
+        margin-left: 60px !important;
+    }
+    #about-us h5 {
+        margin-left: 50px !important;
+    }
+
+    #about-us {
+        margin-left: 40px !important;
+    }
+    .small-fd {
+        margin-left: 50px !important;
+        display: block !important;
+    }
+    .big-fd {
+        display: block !important;
+    }
+    
+}
+
+
+
+
+
+
+
+
 @media (max-width: 300px) {
     .carousel {
         margin-top: 100px !important;
@@ -742,14 +898,14 @@ form {
     }
 }
 
-@media (max-width:600px ) and (min-width: 420px) {
+@media (max-width:600px ) and (min-width: 429px) {
     .about-img {
         width: 20vw !important;
         height: 25vh !important;
     }
 }
 
-@media (max-width: 768px) and (min-width: 420px) {
+@media (max-width: 768px) and (min-width: 429px) {
     html,body, main{
         overflow-x: hidden !important;
     }
