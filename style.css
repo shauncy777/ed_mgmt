@@ -736,7 +736,7 @@ form {
 }
 
 
-@media (max-width: 428px) {
+@media (max-width: 428px) and (min-width: 420px) {
     .d-inline-block {
         margin-left: -10px !important;
         height: 10vh;
@@ -1126,7 +1126,10 @@ form {
        margin-left: 30px !important;
     }
 
-   
+    p.lead.text-muted {
+        margin-left: -130px !important;
+        width: 100vw;
+    }
 
     .row-bottom {
         margin-left: 50px !important;
