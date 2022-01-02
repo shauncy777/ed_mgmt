@@ -679,10 +679,13 @@ form {
     .col-sm-8 h3 {
         width: 90vw !important;
     }
+    .row-bottom{
+        margin-left: -60px!important;
+    }
     .feature-img {
         width: 50vw !important;
         height: 30vh !important;
-        margin-left: -5px !important ;
+        margin-left: 10px !important ;
     }
     h3.featurette-heading {
         width: 95vw !important;
@@ -810,10 +813,13 @@ form {
     .col-sm-8 h3 {
         width: 90vw !important;
     }
+    .row-bottom{
+        margin-left: -50px !important;
+    }
     .feature-img {
         width: 50vw !important;
         height: 30vh !important;
-        margin-left: -5px !important ;
+        margin-left: 10px !important ;
     }
     h3.featurette-heading {
         width: 95vw !important;
