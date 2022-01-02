@@ -1071,3 +1071,73 @@ form {
   }
 
 
+@media (max-width: 930px) and (orientation: landscape){
+    html,body, main{
+        overflow-x: hidden !important;
+        }
+    a.nav-link{
+        margin-left: -180px !important;
+    }
+    .logo-ul{
+        margin-left: -100px !important;
+    }
+    .card-one{
+        margin-left: -120px !important;
+    }
+    .card-two{
+        margin-left: -70px !important;
+    }
+    .card-three {
+        margin-left: -25px !important;
+    }
+    .card-four {
+        margin-left: 20px !important;
+    }
+    .card-five{
+        margin-left: -120px !important;
+    }
+    .card-six{
+        margin-left: -70px !important;
+    }
+    .card-seven {
+        margin-left: -25px !important;
+    }
+    .card-eight {
+        margin-left: 20px !important;
+    }
+    .card-left{
+        width: 22.3vw !important;
+    }
+    .card-right {
+        width: 22.3vw !important;
+   
+    }
+    .card-left-b{
+        width: 22.3vw !important;
+        
+    }
+    .card-right-b {
+        width: 22.3vw !important;
+       
+    }
+
+    h3.featurette-heading{
+       text-align: center !important;
+       margin-left: 30px !important;
+    }
+
+   
+
+    .row-bottom {
+        margin-left: 50px !important;
+    }
+
+    .bottom-text {
+        margin-left: 300px !important;
+    }
+        
+    .col-sm-8 {
+        margin-left: 40px !important;
+    }
+    
+}
